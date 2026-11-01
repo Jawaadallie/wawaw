@@ -1,900 +1,192 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mogamad Jawaad Allie - Digital Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mogamad Jawaad Allie | Digital Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="topbar"><b>Jawaad Allie</b><button id="menu" type="button" aria-label="Open menu">Menu</button></div>
 
-    <div class="glow-bg glow-primary"></div>
-    <div class="glow-bg glow-secondary"></div>
+<aside class="rail" id="rail">
+  <a class="brand" href="#top"><span class="mono">JA</span><span><b>Jawaad Allie</b><small>Software Developer</small></span></a>
+  <nav>
+    <h2>Semester 1<span>Work Readiness</span></h2>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#cv">Curriculum vitae</a></li>
+      <li><a href="#interview">Mock interview</a></li>
+      <li><a href="#reflections">STAR reflections</a></li>
+    </ul>
+  </nav>
+  <nav>
+    <h2>Semester 2<span>Agile project &middot; Velour Essence</span></h2>
+    <ul>
+      <li><a href="#charter">Team charter</a></li>
+      <li><a href="#stories">User stories</a></li>
+      <li><a href="#product-backlog">Product backlog</a></li>
+      <li><a href="#sprint-backlog">Sprint backlog</a></li>
+      <li><a href="#logbook">Agile logbook</a></li>
+    </ul>
+  </nav>
+  <button class="theme" id="theme" type="button">Dark mode</button>
+</aside>
 
-    <!-- Navigation Header -->
-    <header class="navbar" id="site-header">
-        <div class="container nav-container">
-            <a href="#about" class="logo" data-tab-link="about">
-                <span class="logo-symbol">&lt;</span>
-                <span class="logo-text">Jawaad.Dev</span>
-                <span class="logo-symbol">/&gt;</span>
-            </a>
+<main id="top">
+  <div class="intro">
+    <p class="eyebrow">CPUT &middot; PRP370S Digital Portfolio</p>
+    <h1>Mogamad Jawaad <em>Allie</em></h1>
+    <p class="lede">Software developer and Scrum Master. Hardworking and highly adaptable, with experience in education support, IT maintenance, media management and software development.</p>
+    <ul class="contact"><li>jawaadallie@gmail.com</li><li>082 939 9647</li><li>Manenberg, Cape Town</li></ul>
+    <a class="btn" href="#cv">Read my CV</a><a class="btn ghost" href="#charter">See the Agile project</a>
+    <div class="glance">
+      <div><b>2</b><span>semesters of evidence</span></div>
+      <div><b>9</b><span>sections with reflections</span></div>
+      <div><b>Scrum Master</b><span>team role, Velour Essence</span></div>
+      <div><b>Diploma</b><span>App Development, CPUT</span></div>
+    </div>
+  </div>
 
-            <div class="semester-switch" role="group" aria-label="Choose semester">
-                <button type="button" class="sem-btn active" data-sem-go="1">
-                    <span class="sem-btn-num">Semester 1</span><span class="sem-btn-sub">Work Readiness</span>
-                </button>
-                <button type="button" class="sem-btn" data-sem-go="2">
-                    <span class="sem-btn-num">Semester 2</span><span class="sem-btn-sub">Agile Project</span>
-                </button>
-            </div>
+  <div class="part"><strong>Semester 1</strong><span>Work Readiness</span></div>
 
-            <div class="nav-actions">
-                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light mode">
-                    <i class="fa-solid fa-sun icon-sun"></i>
-                    <i class="fa-solid fa-moon icon-moon"></i>
-                </button>
-            </div>
+  <section class="chapter" id="about">
+    <header><div class="num">01</div><div><h3 class="title">About me</h3><p>Bridging IT support, media and software development</p></div></header>
+    <div class="panel">
+      <p>I am studying for a Diploma in App Development at the Cape Peninsula University of Technology. I am a hardworking and highly adaptable person with experience in education support, IT maintenance, media management and software development, and strong technical aptitude in programming, computer hardware and systems troubleshooting.</p>
+      <p>Outside the classroom I have worked as a student teacher and IT support assistant, and as a media manager and sound technician. In our Semester 2 Agile project I took the role of Scrum Master, keeping the team organised, managing the timeline and running our daily stand-ups.</p>
+    </div>
+    <div class="panel"><h4>Academic &amp; career goals</h4>
+      <ul class="checks"><li>Complete my diploma and move into a software development role.</li><li>Keep growing my skills in Java, JavaScript, Python and SQL.</li><li>Use my leadership and communication skills in collaborative Agile teams.</li></ul></div>
+  </section>
+
+  <section class="chapter" id="cv">
+    <header><div class="num">02</div><div><h3 class="title">Curriculum vitae</h3><p>My experience, education and skills</p></div></header>
+    <a class="btn" href="assets/documents/CV.md" target="_blank">View Markdown CV</a>
+    <div class="cv-grid" style="margin-top:14px">
+      <div>
+        <div class="panel"><h4>Work experience</h4>
+          <div class="ledger" data-skills="hardware troubleshooting software leadership"><time>2025 &ndash; 2026</time><div><h5>Student Teacher &amp; IT Support Assistant</h5><div class="org">Rylands Primary / ORT SA</div><ul>
+            <li>Assisted educators with classroom instruction and student supervision, and served as substitute teacher when required.</li>
+            <li>Provided IT maintenance and troubleshooting for computer labs and staff devices.</li>
+            <li>Installed and configured software and resolved hardware issues.</li>
+            <li>Supported students with technical learning tasks.</li>
+            <li><strong>Key contribution:</strong> maintained the operational efficiency of classroom computer systems while balancing teaching and technical responsibilities.</li></ul></div></div>
+          <div class="ledger" data-skills="audio social leadership"><time>2020 &ndash; 2026</time><div><h5>Media Manager &amp; Sound Technician</h5><div class="org">Quwwa-tul-islam</div><ul>
+            <li>Managed social media platforms and created digital content.</li>
+            <li>Coordinated branding and online presence.</li>
+            <li>Set up and operated PA systems, amplifiers, mixers and microphones for events.</li>
+            <li>Handled live sound balancing and equipment troubleshooting.</li></ul></div></div>
         </div>
-
-        <div class="subnav">
-            <div class="container subnav-inner">
-                <nav class="nav-links" id="nav-s1" data-semester="1" data-label="Semester 1" aria-label="Semester 1 sections">
-                    <a href="#about" class="nav-link active" data-tab="about"><i class="fa-solid fa-user"></i> About</a>
-                    <a href="#cv" class="nav-link" data-tab="cv"><i class="fa-solid fa-file-invoice"></i> CV</a>
-                    <a href="#interview" class="nav-link" data-tab="interview"><i class="fa-solid fa-video"></i> Interview Video</a>
-                    <a href="#reflections" class="nav-link" data-tab="reflections"><i class="fa-solid fa-brain"></i> STAR Reflections</a>
-                </nav>
-                <nav class="nav-links nav-links--s2" id="nav-s2" data-semester="2" data-label="Semester 2" aria-label="Semester 2 sections" hidden>
-                    <a href="#charter" class="nav-link" data-tab="charter"><i class="fa-solid fa-handshake"></i> Team Charter</a>
-                    <a href="#stories" class="nav-link" data-tab="stories"><i class="fa-solid fa-list-check"></i> User Stories</a>
-                    <a href="#product-backlog" class="nav-link" data-tab="product-backlog"><i class="fa-solid fa-layer-group"></i> Product Backlog</a>
-                    <a href="#sprint-backlog" class="nav-link" data-tab="sprint-backlog"><i class="fa-solid fa-bars-progress"></i> Sprint Backlog</a>
-                    <a href="#logbook" class="nav-link" data-tab="logbook"><i class="fa-solid fa-book"></i> Logbook</a>
-                </nav>
-            </div>
+        <div class="panel"><h4>Education</h4>
+          <div class="ledger" data-skills="java javascript python sql"><time>2023 &ndash; Ongoing</time><div><h5>Diploma in App Development</h5><div class="org">Cape Peninsula University of Technology (CPUT)</div></div></div>
+          <div class="ledger" data-skills=""><time>2020 &ndash; 2022</time><div><h5>Bachelors</h5><div class="org">Al Azhar High School</div></div></div>
+          <div class="ledger" data-skills=""><time>2015 &ndash; 2019</time><div><h5>Islamic Studies and Ethics</h5><div class="org">The Leadership College</div></div></div>
         </div>
-    </header>
+        <div class="panel refs"><h4>References</h4>
+          <p><strong>Ma&rsquo;am Taliep</strong><br>Rylands Primary School<br>admin@rylandsprimary.co.za &middot; +27 63 773 3937</p>
+          <p><strong>Marzuq Ebrahim (Chairman)</strong><br>Quwwa tul islam<br>quwwatul.islam.za@gmail.com &middot; +27 67 945 9749</p></div>
+      </div>
+      <aside>
+        <div class="panel"><h4>Technical skills</h4><p class="hint">Click a skill to highlight where I used it.</p>
+          <div class="group">Programming</div><div class="chips">
+            <button class="chip" data-skill="java">Java</button><button class="chip" data-skill="javascript">JavaScript</button><button class="chip" data-skill="python">Python</button><button class="chip" data-skill="sql">SQL &amp; Databases</button></div>
+          <div class="group">IT &amp; hardware</div><div class="chips">
+            <button class="chip" data-skill="hardware">PC Assembly</button><button class="chip" data-skill="hardware">Hardware Configuration</button><button class="chip" data-skill="troubleshooting">Troubleshooting &amp; Repair</button><button class="chip" data-skill="software">Software Installation</button></div>
+          <div class="group">Audio &amp; media</div><div class="chips">
+            <button class="chip" data-skill="audio">PA &amp; Live Sound</button><button class="chip" data-skill="social">Social Media Content</button></div>
+        </div>
+        <div class="panel"><h4>Core competencies</h4>
+          <div class="meter"><span>Teamwork &amp; Leadership</span><span class="dots"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></div>
+          <div class="meter"><span>Adaptability</span><span class="dots"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></div>
+          <div class="meter"><span>Time Management</span><span class="dots"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></div>
+          <div class="meter"><span>Critical Thinking</span><span class="dots"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></div></div>
+        <div class="panel"><h4>Languages</h4><p><strong>English</strong> &ndash; Fluent<br><strong>Afrikaans</strong> &ndash; Fluent<br><strong>Arabic</strong> &ndash; Semi fluent</p></div>
+      </aside>
+    </div>
+  </section>
 
-    <main class="main-content">
+  <section class="chapter" id="interview">
+    <header><div class="num">03</div><div><h3 class="title">Mock interview</h3><p>Demonstrating my communication skills and readiness for the ICT workplace</p></div></header>
+    <div class="video"><video controls preload="metadata"><source src="assets/video/Interview.mp4" type="video/mp4">Your browser does not support the video tag.</video></div>
+    <p style="color:var(--muted);margin-top:10px;font-size:14px">PRP370S Work Readiness &middot; MP4 &middot; Interview.mp4</p>
+    <div class="three">
+      <div class="panel"><b>01</b><h4>Preparation</h4><p>Reviewed common technical interview questions and practised answers within the 2-minute limit.</p></div>
+      <div class="panel"><b>02</b><h4>Presentation</h4><p>Dressed professionally and set up a clean background so the focus stayed on my answers.</p></div>
+      <div class="panel"><b>03</b><h4>Relevant experience</h4><p>Linked my IT support and hardware troubleshooting background to the work of an ICT professional.</p></div>
+    </div>
+  </section>
 
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="container hero-grid">
-                <div class="hero-info">
-                    <span class="badge hero-badge"><i class="fa-solid fa-laptop-code"></i> CPUT PRP370S Student Portfolio</span>
-                    <h1 class="hero-title">
-                        Mogamad Jawaad <span class="highlight-text">Allie</span>
-                    </h1>
-                    <p class="hero-subtitle">Software Developer &amp; Scrum Master</p>
-                    <p class="hero-description">
-                        Hardworking and highly adaptable, with experience in education support, IT maintenance, media management and software development at Cape Peninsula University of Technology.
-                    </p>
-                    <div class="hero-contact-info">
-                        <div class="hero-contact-text">
-                            <span class="contact-item"><i class="fa-solid fa-envelope"></i> jawaadallie@gmail.com</span>
-                            <span class="contact-sep">|</span>
-                            <span class="contact-item"><i class="fa-solid fa-phone"></i> 082 939 9647</span>
-                            <span class="contact-sep">|</span>
-                            <span class="contact-item"><i class="fa-solid fa-location-dot"></i> Manenberg, Cape Town</span>
-                        </div>
-                    </div>
-                </div>
+  <section class="chapter" id="reflections">
+    <header><div class="num">04</div><div><h3 class="title">STAR reflections</h3><p>Situation, Task, Action, Result: my learning from Semester 1</p></div></header>
+    <div class="tabs">
+      <button class="on" data-pane="ref-markdown" type="button">Markdown CV</button>
+      <button data-pane="ref-video" type="button">Interview video</button>
+      <button data-pane="ref-pages" type="button">GitHub Pages</button>
+    </div>
+    <div class="tabpane on" id="ref-markdown"><h4 style="font-family:var(--serif);font-size:22px;margin:22px 0 12px">Coded CV & Reflections using Markdown</h4><ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>Developing this digital portfolio required us to build structured web documentation without a traditional visual editor, relying on Markdown formatting.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>I needed to code and format my Curriculum Vitae and the structure of my portfolio cleanly using GitHub Flavored Markdown (GFM).</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>I learned and applied Markdown syntax including headers, nested lists, bold text for emphasis and tables to organise my skills, education and experience.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>I produced clean, developer-friendly source files that render well on the web, which strengthened my technical documentation skills.</p></div></li></ol></div><div class="tabpane" id="ref-video"><h4 style="font-family:var(--serif);font-size:22px;margin:22px 0 12px">Mock Interview Video</h4><ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>As part of our work readiness training, I was tasked with recording a mock interview video to prepare for real-world ICT job interviews.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>I needed to respond clearly to interview questions, showing both my technical problem-solving and my interpersonal skills within a strict 2-minute timeframe.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>I prepared by reviewing common technical interview questions, dressing professionally, setting up a clean background and practising answers that highlighted my IT support and hardware troubleshooting background.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>I produced a concise, confident video that shows my readiness for a professional workplace and gave me valuable practice for my future career.</p></div></li></ol></div><div class="tabpane" id="ref-pages"><h4 style="font-family:var(--serif);font-size:22px;margin:22px 0 12px">Deployment on GitHub Pages</h4><ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>To complete the assignment and make my portfolio accessible to employers, my locally built portfolio needed to be published on the internet.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>I was tasked with hosting the project files online using GitHub Pages to create a publicly viewable digital portfolio, and with extending it with my Semester 2 Agile project work.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>I set up a Git repository, committed my files (HTML, CSS, JavaScript, my Markdown CV and the evidence documents and images) and pushed the project to GitHub. I then enabled GitHub Pages from the repository settings.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>My portfolio is hosted and reachable through a public URL, which shows that I can use version control and deploy and manage web assets on my own.</p></div></li></ol></div>
+  </section>
 
-                <div class="hero-visual">
-                    <div class="visual-card">
-                        <div class="card-dots">
-                            <span class="dot red"></span>
-                            <span class="dot yellow"></span>
-                            <span class="dot green"></span>
-                        </div>
-                        <div class="card-code">
-                            <span class="code-comment">// Building professional potential</span><br>
-                            <span class="code-keyword">const</span> developer = {<br>
-                            &nbsp;&nbsp;name: <span class="code-string">"Mogamad Jawaad Allie"</span>,<br>
-                            &nbsp;&nbsp;education: <span class="code-string">"CPUT Diploma in App Development"</span>,<br>
-                            &nbsp;&nbsp;skills: [<span class="code-string">"Java"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"SQL"</span>],<br>
-                            &nbsp;&nbsp;agileRole: <span class="code-string">"Scrum Master"</span>,<br>
-                            &nbsp;&nbsp;workReady: <span class="code-keyword">true</span><br>
-                            };<br><br>
-                            <span class="code-keyword">function</span> getStatus() {<br>
-                            &nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-string">"Internship Ready 🚀"</span>;<br>
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Semester picker -->
-        <section class="semester-picker" id="semester-picker">
-            <div class="container">
-                <h2 class="picker-title">Explore my portfolio</h2>
-                <p class="picker-sub">Choose a semester, then use the section tabs to move through it.</p>
-                <div class="sem-cards">
-                    <button type="button" class="sem-card active" data-sem-go="1">
-                        <span class="sem-card-tag">Semester 1</span>
-                        <span class="sem-card-title">Work Readiness</span>
-                        <span class="sem-card-desc">About me, my CV, the mock interview video and STAR reflections.</span>
-                        <span class="sem-card-chips"><em>About</em><em>CV</em><em>Interview</em><em>Reflections</em></span>
-                        <span class="sem-card-go">Open Semester 1 <i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                    <button type="button" class="sem-card" data-sem-go="2">
-                        <span class="sem-card-tag">Semester 2</span>
-                        <span class="sem-card-title">Agile Project</span>
-                        <span class="sem-card-desc">Perfume Velour Essence: team charter, user stories, backlogs and logbook, each with evidence and a reflection.</span>
-                        <span class="sem-card-chips"><em>Charter</em><em>User Stories</em><em>Product Backlog</em><em>Sprint Backlog</em><em>Logbook</em></span>
-                        <span class="sem-card-go">Open Semester 2 <i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <div class="container container-content">
-
-            <!-- ABOUT -->
-            <section id="about-tab" data-semester="1" class="tab-pane active">
-                <div class="section-header">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="section-subtitle">Bridging IT support, media and software development</p>
-                </div>
-
-                <div class="about-grid about-grid--single">
-                    <div class="card about-main-card">
-                        <div class="about-profile-header">
-                            <div class="avatar-container">
-                                <i class="fa-solid fa-user-tie"></i>
-                            </div>
-                            <div>
-                                <h3 class="card-title">Mogamad Jawaad Allie</h3>
-                                <p class="card-tag">ICT Student | CPUT App Development</p>
-                            </div>
-                        </div>
-                        <p class="about-text">
-                            I am studying for a Diploma in App Development at the Cape Peninsula University of Technology. I am a hardworking and highly adaptable person with experience in education support, IT maintenance, media management and software development, and strong technical aptitude in programming, computer hardware and systems troubleshooting.
-                        </p>
-                        <p class="about-text">
-                            Outside the classroom I have worked as a student teacher and IT support assistant, and as a media manager and sound technician. In our Semester 2 Agile project I took the role of Scrum Master, keeping the team organised, managing the timeline and running our daily stand-ups.
-                        </p>
-                        <div class="about-goals">
-                            <h4 class="small-title"><i class="fa-solid fa-bullseye"></i> Academic &amp; Career Goals</h4>
-                            <ul class="styled-list">
-                                <li>Complete my diploma and move into a software development role.</li>
-                                <li>Keep growing my skills in Java, JavaScript, Python and SQL.</li>
-                                <li>Use my leadership and communication skills in collaborative Agile teams.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CV -->
-            <section id="cv-tab" data-semester="1" class="tab-pane">
-                <div class="section-header">
-                    <h2 class="section-title">Curriculum Vitae</h2>
-                    <p class="section-subtitle">My experience, education and skills</p>
-                </div>
-
-                <div class="cv-actions">
-                    <a href="./assets/documents/CV.md" target="_blank" class="btn btn-primary btn-cv-markdown">
-                        <i class="fa-brands fa-markdown"></i> View Markdown CV
-                    </a>
-                </div>
-
-                <div class="cv-layout">
-                    <div class="cv-sidebar">
-                        <div class="card cv-skills-card">
-                            <h3 class="card-title"><i class="fa-solid fa-gear"></i> Technical Skills</h3>
-                            <p class="skill-filter-hint"><i class="fa-solid fa-hand-pointer"></i> Click a skill to highlight where it was used</p>
-
-                            <div class="skill-group">
-                                <h4>Programming &amp; Development</h4>
-                                <div class="skill-pills">
-                                    <span class="skill-pill" data-skill="java">Java</span>
-                                    <span class="skill-pill" data-skill="javascript">JavaScript</span>
-                                    <span class="skill-pill" data-skill="python">Python</span>
-                                    <span class="skill-pill" data-skill="sql">SQL &amp; Databases</span>
-                                </div>
-                            </div>
-
-                            <div class="skill-group">
-                                <h4>IT &amp; Hardware</h4>
-                                <div class="skill-pills">
-                                    <span class="skill-pill" data-skill="hardware">PC Assembly</span>
-                                    <span class="skill-pill" data-skill="hardware">Hardware Configuration</span>
-                                    <span class="skill-pill" data-skill="troubleshooting">Troubleshooting &amp; Repair</span>
-                                    <span class="skill-pill" data-skill="software">Software Installation</span>
-                                </div>
-                            </div>
-
-                            <div class="skill-group">
-                                <h4>Audio &amp; Media</h4>
-                                <div class="skill-pills">
-                                    <span class="skill-pill" data-skill="audio">PA &amp; Live Sound</span>
-                                    <span class="skill-pill" data-skill="social">Social Media Content</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card cv-core-skills-card">
-                            <h3 class="card-title"><i class="fa-solid fa-brain"></i> Core Competencies</h3>
-                            <div class="competency-item">
-                                <div class="competency-label"><span>Teamwork &amp; Leadership</span><span class="competency-pct">90%</span></div>
-                                <div class="progress-bar"><div class="progress" data-width="90%" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="competency-item">
-                                <div class="competency-label"><span>Adaptability</span><span class="competency-pct">90%</span></div>
-                                <div class="progress-bar"><div class="progress" data-width="90%" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="competency-item">
-                                <div class="competency-label"><span>Time Management</span><span class="competency-pct">85%</span></div>
-                                <div class="progress-bar"><div class="progress" data-width="85%" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="competency-item">
-                                <div class="competency-label"><span>Critical Thinking</span><span class="competency-pct">85%</span></div>
-                                <div class="progress-bar"><div class="progress" data-width="85%" style="width: 0%;"></div></div>
-                            </div>
-                        </div>
-
-                        <div class="card cv-languages-card">
-                            <h3 class="card-title"><i class="fa-solid fa-language"></i> Languages</h3>
-                            <ul class="styled-list">
-                                <li><strong>English</strong>: Fluent</li>
-                                <li><strong>Afrikaans</strong>: Fluent</li>
-                                <li><strong>Arabic</strong>: Semi fluent</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="cv-main">
-                        <div class="card cv-experience-card">
-                            <h3 class="card-title"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
-
-                            <div class="timeline">
-                                <div class="timeline-item" data-skills="hardware troubleshooting software leadership">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <div class="timeline-header">
-                                            <h4>Student Teacher &amp; IT Support Assistant</h4>
-                                            <span class="timeline-date">2025 - 2026</span>
-                                        </div>
-                                        <p class="timeline-company">Rylands Primary / ORT SA</p>
-                                        <ul class="timeline-bullets">
-                                            <li>Assisted educators with classroom instruction and student supervision, and served as substitute teacher when required.</li>
-                                            <li>Provided IT maintenance and troubleshooting for computer labs and staff devices.</li>
-                                            <li>Installed and configured software and resolved hardware issues.</li>
-                                            <li>Supported students with technical learning tasks.</li>
-                                            <li><strong>Key contribution:</strong> maintained the operational efficiency of classroom computer systems while balancing teaching and technical responsibilities.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item" data-skills="audio social leadership">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <div class="timeline-header">
-                                            <h4>Media Manager &amp; Sound Technician</h4>
-                                            <span class="timeline-date">2020 - 2026</span>
-                                        </div>
-                                        <p class="timeline-company">Quwwa-tul-islam</p>
-                                        <ul class="timeline-bullets">
-                                            <li>Managed social media platforms and created digital content.</li>
-                                            <li>Coordinated branding and online presence.</li>
-                                            <li>Set up and operated PA systems, amplifiers, mixers and microphones for events.</li>
-                                            <li>Handled live sound balancing and equipment troubleshooting.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card cv-education-card">
-                            <h3 class="card-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
-
-                            <div class="timeline">
-                                <div class="timeline-item" data-skills="java javascript python sql">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <div class="timeline-header">
-                                            <h4>Diploma in App Development</h4>
-                                            <span class="timeline-date">2023 - Ongoing</span>
-                                        </div>
-                                        <p class="timeline-company">Cape Peninsula University of Technology (CPUT)</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item" data-skills="">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <div class="timeline-header">
-                                            <h4>Bachelors</h4>
-                                            <span class="timeline-date">2020 - 2022</span>
-                                        </div>
-                                        <p class="timeline-company">Al Azhar High School</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-item" data-skills="">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <div class="timeline-header">
-                                            <h4>Islamic Studies and Ethics</h4>
-                                            <span class="timeline-date">2015 - 2019</span>
-                                        </div>
-                                        <p class="timeline-company">The Leadership College</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card cv-references-card">
-                            <h3 class="card-title"><i class="fa-solid fa-quote-left"></i> References</h3>
-                            <blockquote class="cv-blockquote">
-                                <cite>
-                                    <strong>Ma’am Taliep</strong><br>
-                                    Rylands Primary School<br>
-                                    ✉️ admin@rylandsprimary.co.za<br>
-                                    📞 +27 63 773 3937
-                                </cite>
-                            </blockquote>
-                            <blockquote class="cv-blockquote">
-                                <cite>
-                                    <strong>Marzuq Ebrahim (Chairman)</strong><br>
-                                    Quwwa tul islam<br>
-                                    ✉️ quwwatul.islam.za@gmail.com<br>
-                                    📞 +27 67 945 9749
-                                </cite>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- INTERVIEW -->
-            <section id="interview-tab" data-semester="1" class="tab-pane">
-                <div class="section-header">
-                    <h2 class="section-title">Mock Interview Video</h2>
-                    <p class="section-subtitle">Demonstrating my communication skills and readiness for the ICT workplace</p>
-                </div>
-
-                <div class="interview-grid">
-                    <div class="card video-card">
-                        <div class="video-container">
-                            <video id="portfolio-video" controls preload="metadata">
-                                <source src="assets/video/Interview.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="video-info">
-                            <span class="badge"><i class="fa-solid fa-circle-check text-success"></i> Mock Interview</span>
-                            <h3>Mock Interview Recording</h3>
-                            <p class="video-meta">Subject: PRP370S Work Readiness | Format: MP4 | File: Interview.mp4</p>
-                        </div>
-                    </div>
-
-                    <div class="card interview-insights-card">
-                        <h3 class="card-title"><i class="fa-solid fa-lightbulb"></i> Mock Interview Insights</h3>
-                        <p class="card-tag">How I prepared</p>
-
-                        <div class="insights-list">
-                            <div class="insight-item">
-                                <div class="insight-num">01</div>
-                                <div class="insight-content">
-                                    <h4>Preparation</h4>
-                                    <p>Reviewed common technical interview questions and practised answers within the 2-minute limit.</p>
-                                </div>
-                            </div>
-                            <div class="insight-item">
-                                <div class="insight-num">02</div>
-                                <div class="insight-content">
-                                    <h4>Presentation</h4>
-                                    <p>Dressed professionally and set up a clean background so the focus stayed on my answers.</p>
-                                </div>
-                            </div>
-                            <div class="insight-item">
-                                <div class="insight-num">03</div>
-                                <div class="insight-content">
-                                    <h4>Relevant Experience</h4>
-                                    <p>Linked my IT support and hardware troubleshooting background to the work of an ICT professional.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="interview-academic-note">
-                            <i class="fa-solid fa-circle-info"></i>
-                            <p>This video is evidence of work readiness presentation for the CPUT work readiness training.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- STAR REFLECTIONS -->
-            <section id="reflections-tab" data-semester="1" class="tab-pane">
-                <div class="section-header">
-                    <h2 class="section-title">STAR Method Reflections</h2>
-                    <p class="section-subtitle">Situation, Task, Action, Result: my learning from Semester 1</p>
-                </div>
-
-                <div class="reflections-container">
-                    <div class="reflections-nav">
-                        <button class="ref-btn active" data-ref="markdown"><i class="fa-brands fa-markdown"></i> Markdown CV</button>
-                        <button class="ref-btn" data-ref="video"><i class="fa-solid fa-video"></i> Interview Video</button>
-                        <button class="ref-btn" data-ref="pages"><i class="fa-solid fa-cloud-arrow-up"></i> GitHub Pages</button>
-                    </div>
-
-                    <div class="reflections-content">
-
-                        <div id="ref-markdown" class="ref-pane active">
-                            <div class="ref-header">
-                                <span class="badge"><i class="fa-solid fa-code"></i> GFM Standard</span>
-                                <h3>Coded CV & Reflections using Markdown</h3>
-                            </div>
-                            <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>Developing this digital portfolio required us to build structured web documentation without a traditional visual editor, relying on Markdown formatting.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>I needed to code and format my Curriculum Vitae and the structure of my portfolio cleanly using GitHub Flavored Markdown (GFM).</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>I learned and applied Markdown syntax including headers, nested lists, bold text for emphasis and tables to organise my skills, education and experience.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>I produced clean, developer-friendly source files that render well on the web, which strengthened my technical documentation skills.</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-
-                        <div id="ref-video" class="ref-pane">
-                            <div class="ref-header">
-                                <span class="badge"><i class="fa-solid fa-video"></i> Work Readiness</span>
-                                <h3>Mock Interview Video</h3>
-                            </div>
-                            <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>As part of our work readiness training, I was tasked with recording a mock interview video to prepare for real-world ICT job interviews.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>I needed to respond clearly to interview questions, showing both my technical problem-solving and my interpersonal skills within a strict 2-minute timeframe.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>I prepared by reviewing common technical interview questions, dressing professionally, setting up a clean background and practising answers that highlighted my IT support and hardware troubleshooting background.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>I produced a concise, confident video that shows my readiness for a professional workplace and gave me valuable practice for my future career.</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-
-                        <div id="ref-pages" class="ref-pane">
-                            <div class="ref-header">
-                                <span class="badge"><i class="fa-solid fa-cloud-arrow-up"></i> Deployment</span>
-                                <h3>Deployment on GitHub Pages</h3>
-                            </div>
-                            <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>To complete the assignment and make my portfolio accessible to employers, my locally built portfolio needed to be published on the internet.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>I was tasked with hosting the project files online using GitHub Pages to create a publicly viewable digital portfolio, and with extending it with my Semester 2 Agile project work.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>I set up a Git repository, committed my files (HTML, CSS, JavaScript, my Markdown CV and the evidence documents and images) and pushed the project to GitHub. I then enabled GitHub Pages from the repository settings.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>My portfolio is hosted and reachable through a public URL, which shows that I can use version control and deploy and manage web assets on my own.</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- SEMESTER 2: AGILE TEAM CHARTER -->
-            <section id="charter-tab" class="tab-pane" data-semester="2">
-                <div class="section-header">
-                    <h2 class="section-title">Agile Team Charter</h2>
-                    <p class="section-subtitle">How our team agreed to work together on the custom perfume project</p>
-                </div>
-
-                <div class="card agile-def-card">
-                    <span class="badge"><i class="fa-solid fa-handshake"></i> Agile Practice</span>
-                    <p>An Agile team charter is a living, co-created social contract that defines a team's shared purpose, core values, working agreements, and operational boundaries to reduce friction and align daily execution.</p>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-folder-open"></i> Evidence</h3>
-                <div class="evidence-grid">
-                        <figure class="evidence-figure">
-                            <img src="assets/images/team-charter-1.png" alt="Agile Team Charter: team purpose, vision and the first part of the roster" loading="lazy">
-                            <figcaption>Agile Team Charter: team purpose, vision and the start of the roster (Product Owner and Scrum Master)</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/team-charter-2.png" alt="Agile Team Charter: rest of the roster, value chain and team principles" loading="lazy">
-                            <figcaption>Agile Team Charter: rest of the roster, the value chain and our team principles</figcaption>
-                        </figure>
-                        <div class="card agile-def-card charter-download">
+  <div class="part"><strong>Semester 2</strong><span>Agile Project &middot; Perfume Velour Essence</span></div>
+  
+<section class="chapter" id="charter">
+  <header><div class="num">05</div><div><h3 class="title">Agile Team Charter</h3><p>How our team agreed to work together on the custom perfume project</p></div></header>
+  <div class="panel def"><b>Agile Practice</b>An Agile team charter is a living, co-created social contract that defines a team's shared purpose, core values, working agreements, and operational boundaries to reduce friction and align daily execution.</div>
+  <div class="sub">Evidence</div>
+  <div class="shots"><button type="button" class="shot"><img src="assets/images/team-charter-1.png" alt="Agile Team Charter: team purpose, vision and the first part of the roster" loading="lazy"><span>Agile Team Charter: team purpose, vision and the start of the roster (Product Owner and Scrum Master)</span></button><button type="button" class="shot"><img src="assets/images/team-charter-2.png" alt="Agile Team Charter: rest of the roster, value chain and team principles" loading="lazy"><span>Agile Team Charter: rest of the roster, the value chain and our team principles</span></button>                        <div class="dl">
                             <p>The full charter also covers team values, agile principles, the communication plan, SMART goals and six sprint milestones.</p>
-                            <a href="./assets/documents/Agile-Team-Charter.docx" download class="btn btn-primary"><i class="fa-solid fa-file-word"></i> Download the full charter (.docx)</a>
+                            <a href="./assets/documents/Agile-Team-Charter.docx" download class="btn">Download the full charter (.docx)</a>
                         </div>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-pen-to-square"></i> Reflection</h3>
-                <div class="reflections-content reflection-block">
-                    <div class="ref-header">
-                        <span class="badge"><i class="fa-solid fa-lightbulb"></i> STAR Method</span>
-                        <h3>Reflection: Agile Team Charter</h3>
-                    </div>
-                    <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>Our five-person team was starting the Semester 2 project: building a system for Perfume Velour Essence, a custom perfume business. Before any design or code began, we needed to agree who did what and how we would work together.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>As the team's Scrum Master, understand how my role fitted into the project and help agree a charter covering our purpose, roles, values, communication plan and milestones.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>We wrote the charter as a team: an objective and vision for an affordable-luxury custom perfume platform, and the roles arranged as a value chain. Imaad (Product Owner) sets the goal, I build the schedule to reach it, Zia designs how it looks and feels, Dayyaan builds it and Anas takes it to market. My role was Process &amp; Agility: keeping the team organised, managing the timeline and making sure meetings are short and effective. We also agreed principles such as No Silos, Quick Checks and Clear Ownership, a communication plan (daily WhatsApp, Trello for tasks, a weekly meeting) and six sprint milestones with SMART goals.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>The charter gave me a clear mandate: protect the timeline and keep stand-ups short. It also showed that my schedule sat between the vision and the design and build work, so if I let planning slip, everyone after me would be affected. Later on, our logbook showed scheduling conflicts, so next time I would agree fixed meeting slots in the communication plan from the start.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <!-- SEMESTER 2: USER STORIES AND TASKS -->
-            <section id="stories-tab" class="tab-pane" data-semester="2">
-                <div class="section-header">
-                    <h2 class="section-title">User Stories and Tasks</h2>
-                    <p class="section-subtitle">Turning the custom perfume idea into customer and admin needs</p>
-                </div>
-
-                <div class="card agile-def-card">
-                    <span class="badge"><i class="fa-solid fa-list-check"></i> Requirements</span>
-                    <p>A user story is a short, simple description of a software feature written from the end-user's perspective. The breakdown is then divided into tasks.</p>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-folder-open"></i> Evidence</h3>
-                <div class="evidence-grid">
-                        <figure class="evidence-figure">
-                            <img src="assets/images/user-stories-epic1.png" alt="User stories for Epic 1: Custom Scent Builder" loading="lazy">
-                            <figcaption>Epic 1: Custom Scent Builder</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/user-stories-epics2-6.png" alt="User stories for Epics 2 to 6" loading="lazy">
-                            <figcaption>Epics 2 to 6: Label &amp; Bottle Personalization, Checkout &amp; Payments, Account &amp; Order Tracking, Admin &amp; Operations, Marketing &amp; Engagement</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/trello-board.png" alt="Trello board for Perfume Velour Essence with day cards and checklists" loading="lazy">
-                            <figcaption>Tasks: the work tracked on Trello as sprint day cards, each with a due date and checklist</figcaption>
-                        </figure>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-pen-to-square"></i> Reflection</h3>
-                <div class="reflections-content reflection-block">
-                    <div class="ref-header">
-                        <span class="badge"><i class="fa-solid fa-lightbulb"></i> STAR Method</span>
-                        <h3>Reflection: User Stories and Tasks</h3>
-                    </div>
-                    <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>We had an idea for a custom perfume platform but no clear list of what it had to do, or for whom. As Scrum Master I needed the team to agree on what to build first so that the sprints stayed realistic.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>Capture the requirements as user stories in the "As a… I want… so that…" format, group them into epics, and break the work into tasks the team could track.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>As a team we wrote 15 user stories across six epics: Custom Scent Builder, Label &amp; Bottle Personalization, Checkout &amp; Payments, Account &amp; Order Tracking, Admin &amp; Operations, and Marketing &amp; Engagement. The work was then broken into tasks on our Trello board as sprint day cards with due dates and checklists. During stand-ups I used the stories to help the team prioritise the most critical "Must-Have" website features when time was short.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>The stories gave the team one shared list of what "done" meant, which made prioritising easier than arguing over features. Writing the "so that" part of each story showed me that every feature should be justified by the value it gives a customer or an admin. Breaking the epics into small day cards also made progress visible on the board.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <!-- SEMESTER 2: PRODUCT BACKLOG -->
-            <section id="product-backlog-tab" class="tab-pane" data-semester="2">
-                <div class="section-header">
-                    <h2 class="section-title">Product Backlog</h2>
-                    <p class="section-subtitle">The prioritised list of work still needed for the product</p>
-                </div>
-
-                <div class="card agile-def-card">
-                    <span class="badge"><i class="fa-solid fa-layer-group"></i> Agile Practice</span>
-                    <p>A product backlog is a prioritized list of all required work, features, bug fixes, and improvements needed for a product.</p>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-folder-open"></i> Evidence</h3>
-                <div class="evidence-grid">
-                        <figure class="evidence-figure">
-                            <img src="assets/images/taskboard.png" alt="Taskboard from my logbook with Product Backlog, In Progress and Completed columns" loading="lazy">
-                            <figcaption>Taskboard from my logbook: the Product Backlog column holds work not yet started (final launch, marketing analytics, customer feedback, inventory system, secondary scent lines)</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/trello-board.png" alt="Trello board with a Product Backlog list of 26 cards labelled by sprint" loading="lazy">
-                            <figcaption>Trello: the Product Backlog list holds the upcoming sprint day cards (Sprint 4 and Sprint 5), alongside In Progress and Completed</figcaption>
-                        </figure>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-pen-to-square"></i> Reflection</h3>
-                <div class="reflections-content reflection-block">
-                    <div class="ref-header">
-                        <span class="badge"><i class="fa-solid fa-lightbulb"></i> STAR Method</span>
-                        <h3>Reflection: Product Backlog</h3>
-                    </div>
-                    <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>Our project had a lot of work still ahead, from supplier research and pricing to the final launch, and the team needed one place that showed what was waiting and in what order.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>As Scrum Master, help keep the product backlog current and ordered so the team always knew what would be picked up next.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>We held the backlog in two places. On my logbook taskboard the Product Backlog column listed the later items: final product launch, post-launch marketing analytics, customer feedback collection, inventory management system setup and expansion to secondary scent lines. On Trello the Product Backlog list held the upcoming sprint day cards, such as the Sprint 4 supplier research, quote comparison and pricing cards, each with a due date and a checklist. As work started, cards moved across to In Progress and then Completed.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>Keeping the backlog visible meant nobody had to ask what was next. The ordering showed that supplier work needed to start early, which matched the supplier delays I recorded in my logbook. The lesson I took away is that a backlog is only useful if it is reviewed regularly, so that the order stays in line with what the business needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <!-- SEMESTER 2: SPRINT BACKLOG -->
-            <section id="sprint-backlog-tab" class="tab-pane" data-semester="2">
-                <div class="section-header">
-                    <h2 class="section-title">Sprint Backlog</h2>
-                    <p class="section-subtitle">The work the team committed to inside each sprint</p>
-                </div>
-
-                <div class="card agile-def-card">
-                    <span class="badge"><i class="fa-solid fa-bars-progress"></i> Agile Practice</span>
-                    <p>A Sprint Backlog is a real-time, actionable plan created by and for developers that outlines the specific work needed to achieve the sprint goal.</p>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-folder-open"></i> Evidence</h3>
-                <div class="evidence-grid">
-                        <figure class="evidence-figure">
-                            <img src="assets/images/trello-board.png" alt="Trello board with sprint-labelled day cards moving across Product Backlog, In Progress and Completed" loading="lazy">
-                            <figcaption>Trello: every card carries a sprint label (Sprint 1 to 5), a due date and a checklist, and moves across the board as it is worked on</figcaption>
-                        </figure>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-pen-to-square"></i> Reflection</h3>
-                <div class="reflections-content reflection-block">
-                    <div class="ref-header">
-                        <span class="badge"><i class="fa-solid fa-lightbulb"></i> STAR Method</span>
-                        <h3>Reflection: Sprint Backlog</h3>
-                    </div>
-                    <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>Each sprint needed a clear, small set of tasks the team could finish in time, and everyone had to see what was in progress at any moment.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>As Scrum Master, help the team plan each sprint on the Trello board and track the day cards through to completion.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>The work was split into sprint-labelled day cards, for example "Sprint 1 – Day 1: Finalise the business idea" and "Sprint 3 – Day 3: Design packaging concepts". Each card has a due date and a checklist, and moved from the backlog to In Progress to Completed. The Sprint 1 and Sprint 2 cards are completed with their checklists ticked off, while the Sprint 3 packaging and branding cards were in progress. In my stand-ups I checked the board against what people said they were working on.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>The sprint cards made it easy to see what the team had finished and what was still open. The board and our stand-ups showed the same picture, which is what I wanted as Scrum Master. For future sprints I would add owners on each card so that responsibility is just as visible as progress.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <!-- SEMESTER 2: AGILE LOGBOOK -->
-            <section id="logbook-tab" class="tab-pane" data-semester="2">
-                <div class="section-header">
-                    <h2 class="section-title">Agile Logbook</h2>
-                    <p class="section-subtitle">My daily stand-up entries as Scrum Master, with the walkthrough and sprint retrospective</p>
-                </div>
-
-                <div class="card agile-def-card">
-                    <span class="badge"><i class="fa-solid fa-book"></i> Agile Practice</span>
-                    <p>An agile logbook is a tracking tool used by project managers and development teams to record daily stand-ups, sprint plans, and retrospective notes.</p>
-                </div>
-
-                <h3 class="block-title"><i class="fa-solid fa-folder-open"></i> Evidence</h3>
-                <div class="evidence-grid">
-                        <figure class="evidence-figure">
-                            <img src="assets/images/logbook-page-1.png" alt="My agile logbook page 1: taskboard, walkthrough and start of the daily logbook" loading="lazy">
-                            <figcaption>Logbook page 1: my role, the taskboard and the walkthrough questions</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/logbook-page-2.png" alt="My agile logbook page 2: daily entries from 16 to 21 April 2026" loading="lazy">
-                            <figcaption>Logbook page 2: daily stand-up entries, Thursday 16 April to Tuesday 21 April 2026</figcaption>
-                        </figure>
-                        <figure class="evidence-figure">
-                            <img src="assets/images/logbook-page-3.png" alt="My agile logbook page 3: the 22 April entry and the retrospective" loading="lazy">
-                            <figcaption>Logbook page 3: Wednesday 22 April 2026 and the sprint retrospective</figcaption>
-                        </figure>
-                        <div class="card agile-def-card charter-download">
+</div>
+  <div class="sub">Reflection &middot; Agile Team Charter</div>
+  <ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>Our five-person team was starting the Semester 2 project: building a system for Perfume Velour Essence, a custom perfume business. Before any design or code began, we needed to agree who did what and how we would work together.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>As the team's Scrum Master, understand how my role fitted into the project and help agree a charter covering our purpose, roles, values, communication plan and milestones.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>We wrote the charter as a team: an objective and vision for an affordable-luxury custom perfume platform, and the roles arranged as a value chain. Imaad (Product Owner) sets the goal, I build the schedule to reach it, Zia designs how it looks and feels, Dayyaan builds it and Anas takes it to market. My role was Process &amp; Agility: keeping the team organised, managing the timeline and making sure meetings are short and effective. We also agreed principles such as No Silos, Quick Checks and Clear Ownership, a communication plan (daily WhatsApp, Trello for tasks, a weekly meeting) and six sprint milestones with SMART goals.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>The charter gave me a clear mandate: protect the timeline and keep stand-ups short. It also showed that my schedule sat between the vision and the design and build work, so if I let planning slip, everyone after me would be affected. Later on, our logbook showed scheduling conflicts, so next time I would agree fixed meeting slots in the communication plan from the start.</p></div></li></ol>
+</section>
+<section class="chapter" id="stories">
+  <header><div class="num">06</div><div><h3 class="title">User Stories and Tasks</h3><p>Turning the custom perfume idea into customer and admin needs</p></div></header>
+  <div class="panel def"><b>Requirements</b>A user story is a short, simple description of a software feature written from the end-user's perspective. The breakdown is then divided into tasks.</div>
+  <div class="sub">Evidence</div>
+  <div class="shots"><button type="button" class="shot"><img src="assets/images/user-stories-epic1.png" alt="User stories for Epic 1: Custom Scent Builder" loading="lazy"><span>Epic 1: Custom Scent Builder</span></button><button type="button" class="shot"><img src="assets/images/user-stories-epics2-6.png" alt="User stories for Epics 2 to 6" loading="lazy"><span>Epics 2 to 6: Label &amp; Bottle Personalization, Checkout &amp; Payments, Account &amp; Order Tracking, Admin &amp; Operations, Marketing &amp; Engagement</span></button><button type="button" class="shot"><img src="assets/images/trello-board.png" alt="Trello board for Perfume Velour Essence with day cards and checklists" loading="lazy"><span>Tasks: the work tracked on Trello as sprint day cards, each with a due date and checklist</span></button></div>
+  <div class="sub">Reflection &middot; User Stories and Tasks</div>
+  <ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>We had an idea for a custom perfume platform but no clear list of what it had to do, or for whom. As Scrum Master I needed the team to agree on what to build first so that the sprints stayed realistic.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>Capture the requirements as user stories in the "As a… I want… so that…" format, group them into epics, and break the work into tasks the team could track.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>As a team we wrote 15 user stories across six epics: Custom Scent Builder, Label &amp; Bottle Personalization, Checkout &amp; Payments, Account &amp; Order Tracking, Admin &amp; Operations, and Marketing &amp; Engagement. The work was then broken into tasks on our Trello board as sprint day cards with due dates and checklists. During stand-ups I used the stories to help the team prioritise the most critical "Must-Have" website features when time was short.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>The stories gave the team one shared list of what "done" meant, which made prioritising easier than arguing over features. Writing the "so that" part of each story showed me that every feature should be justified by the value it gives a customer or an admin. Breaking the epics into small day cards also made progress visible on the board.</p></div></li></ol>
+</section>
+<section class="chapter" id="product-backlog">
+  <header><div class="num">07</div><div><h3 class="title">Product Backlog</h3><p>The prioritised list of work still needed for the product</p></div></header>
+  <div class="panel def"><b>Agile Practice</b>A product backlog is a prioritized list of all required work, features, bug fixes, and improvements needed for a product.</div>
+  <div class="sub">Evidence</div>
+  <div class="shots"><button type="button" class="shot"><img src="assets/images/taskboard.png" alt="Taskboard from my logbook with Product Backlog, In Progress and Completed columns" loading="lazy"><span>Taskboard from my logbook: the Product Backlog column holds work not yet started (final launch, marketing analytics, customer feedback, inventory system, secondary scent lines)</span></button><button type="button" class="shot"><img src="assets/images/trello-board.png" alt="Trello board with a Product Backlog list of 26 cards labelled by sprint" loading="lazy"><span>Trello: the Product Backlog list holds the upcoming sprint day cards (Sprint 4 and Sprint 5), alongside In Progress and Completed</span></button></div>
+  <div class="sub">Reflection &middot; Product Backlog</div>
+  <ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>Our project had a lot of work still ahead, from supplier research and pricing to the final launch, and the team needed one place that showed what was waiting and in what order.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>As Scrum Master, help keep the product backlog current and ordered so the team always knew what would be picked up next.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>We held the backlog in two places. On my logbook taskboard the Product Backlog column listed the later items: final product launch, post-launch marketing analytics, customer feedback collection, inventory management system setup and expansion to secondary scent lines. On Trello the Product Backlog list held the upcoming sprint day cards, such as the Sprint 4 supplier research, quote comparison and pricing cards, each with a due date and a checklist. As work started, cards moved across to In Progress and then Completed.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>Keeping the backlog visible meant nobody had to ask what was next. The ordering showed that supplier work needed to start early, which matched the supplier delays I recorded in my logbook. The lesson I took away is that a backlog is only useful if it is reviewed regularly, so that the order stays in line with what the business needs.</p></div></li></ol>
+</section>
+<section class="chapter" id="sprint-backlog">
+  <header><div class="num">08</div><div><h3 class="title">Sprint Backlog</h3><p>The work the team committed to inside each sprint</p></div></header>
+  <div class="panel def"><b>Agile Practice</b>A Sprint Backlog is a real-time, actionable plan created by and for developers that outlines the specific work needed to achieve the sprint goal.</div>
+  <div class="sub">Evidence</div>
+  <div class="shots"><button type="button" class="shot"><img src="assets/images/trello-board.png" alt="Trello board with sprint-labelled day cards moving across Product Backlog, In Progress and Completed" loading="lazy"><span>Trello: every card carries a sprint label (Sprint 1 to 5), a due date and a checklist, and moves across the board as it is worked on</span></button></div>
+  <div class="sub">Reflection &middot; Sprint Backlog</div>
+  <ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>Each sprint needed a clear, small set of tasks the team could finish in time, and everyone had to see what was in progress at any moment.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>As Scrum Master, help the team plan each sprint on the Trello board and track the day cards through to completion.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>The work was split into sprint-labelled day cards, for example "Sprint 1 – Day 1: Finalise the business idea" and "Sprint 3 – Day 3: Design packaging concepts". Each card has a due date and a checklist, and moved from the backlog to In Progress to Completed. The Sprint 1 and Sprint 2 cards are completed with their checklists ticked off, while the Sprint 3 packaging and branding cards were in progress. In my stand-ups I checked the board against what people said they were working on.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>The sprint cards made it easy to see what the team had finished and what was still open. The board and our stand-ups showed the same picture, which is what I wanted as Scrum Master. For future sprints I would add owners on each card so that responsibility is just as visible as progress.</p></div></li></ol>
+</section>
+<section class="chapter" id="logbook">
+  <header><div class="num">09</div><div><h3 class="title">Agile Logbook</h3><p>My daily stand-up entries as Scrum Master, with the walkthrough and sprint retrospective</p></div></header>
+  <div class="panel def"><b>Agile Practice</b>An agile logbook is a tracking tool used by project managers and development teams to record daily stand-ups, sprint plans, and retrospective notes.</div>
+  <div class="sub">Evidence</div>
+  <div class="shots"><button type="button" class="shot"><img src="assets/images/logbook-page-1.png" alt="My agile logbook page 1: taskboard, walkthrough and start of the daily logbook" loading="lazy"><span>Logbook page 1: my role, the taskboard and the walkthrough questions</span></button><button type="button" class="shot"><img src="assets/images/logbook-page-2.png" alt="My agile logbook page 2: daily entries from 16 to 21 April 2026" loading="lazy"><span>Logbook page 2: daily stand-up entries, Thursday 16 April to Tuesday 21 April 2026</span></button><button type="button" class="shot"><img src="assets/images/logbook-page-3.png" alt="My agile logbook page 3: the 22 April entry and the retrospective" loading="lazy"><span>Logbook page 3: Wednesday 22 April 2026 and the sprint retrospective</span></button>                        <div class="dl">
                             <p>Download my full logbook, or the team logbook with the standup entries for 14 to 17 July 2026.</p>
-                            <a href="./assets/documents/Agile-Logbook.docx" download class="btn btn-primary"><i class="fa-solid fa-file-word"></i> My logbook (.docx)</a>
-                            <a href="./assets/documents/Team-Agile-Logbook.pdf" download class="btn btn-secondary"><i class="fa-solid fa-file-pdf"></i> Team logbook (.pdf)</a>
+                            <a href="./assets/documents/Agile-Logbook.docx" download class="btn">My logbook (.docx)</a>
+                            <a href="./assets/documents/Team-Agile-Logbook.pdf" download class="btn ghost">Team logbook (.pdf)</a>
                         </div>
-                </div>
+</div>
+  <div class="sub">Reflection &middot; Agile Logbook</div>
+  <ol class="star"><li><div class="L">S</div><div><h5>Situation</h5><p>Over one working week the team had to stay aligned while the website, prototype and supplier work were all moving at once. As Scrum Master I was responsible for keeping everyone in step.</p></div></li><li><div class="L">T</div><div><h5>Task</h5><p>Record a daily stand-up entry covering what I completed, what I planned next and what was blocking me, and finish the sprint with a retrospective.</p></div></li><li><div class="L">A</div><div><h5>Action</h5><p>On 16 April I facilitated sprint planning and set up the physical and digital task boards. On 17 April I identified supplier delays as a critical blocker and encouraged Anas to look for secondary suppliers. On 20 April I tracked the financial and risk analysis and helped the team prioritise the Must-Have website features. On 21 April I reviewed the packaging visuals and focused on unblocking website development. On 22 April I ran the final stand-up of the week. The sprint ended with a retrospective: what went well, what could be improved and an action plan.</p></div></li><li><div class="L">R</div><div><h5>Result</h5><p>The impediments I logged moved from supplier delays and time pressure to "None" by 22 April, so writing them down daily helped us deal with them early. The retrospective gave us two clear actions: start supplier outreach earlier, and add a recurring 15-minute morning sync on MS Teams. The main lesson for me is that a Scrum Master's job is mostly to remove blockers, and a daily log makes that visible.</p></div></li></ol>
+</section>
 
-                <h3 class="block-title"><i class="fa-solid fa-pen-to-square"></i> Reflection</h3>
-                <div class="reflections-content reflection-block">
-                    <div class="ref-header">
-                        <span class="badge"><i class="fa-solid fa-lightbulb"></i> STAR Method</span>
-                        <h3>Reflection: Agile Logbook</h3>
-                    </div>
-                    <div class="star-grid">
-                            <div class="star-card situation">
-                                <div class="star-icon">S</div>
-                                <div class="star-text">
-                                    <h4>Situation</h4>
-                                    <p>Over one working week the team had to stay aligned while the website, prototype and supplier work were all moving at once. As Scrum Master I was responsible for keeping everyone in step.</p>
-                                </div>
-                            </div>
-                            <div class="star-card task">
-                                <div class="star-icon">T</div>
-                                <div class="star-text">
-                                    <h4>Task</h4>
-                                    <p>Record a daily stand-up entry covering what I completed, what I planned next and what was blocking me, and finish the sprint with a retrospective.</p>
-                                </div>
-                            </div>
-                            <div class="star-card action">
-                                <div class="star-icon">A</div>
-                                <div class="star-text">
-                                    <h4>Action</h4>
-                                    <p>On 16 April I facilitated sprint planning and set up the physical and digital task boards. On 17 April I identified supplier delays as a critical blocker and encouraged Anas to look for secondary suppliers. On 20 April I tracked the financial and risk analysis and helped the team prioritise the Must-Have website features. On 21 April I reviewed the packaging visuals and focused on unblocking website development. On 22 April I ran the final stand-up of the week. The sprint ended with a retrospective: what went well, what could be improved and an action plan.</p>
-                                </div>
-                            </div>
-                            <div class="star-card result">
-                                <div class="star-icon">R</div>
-                                <div class="star-text">
-                                    <h4>Result</h4>
-                                    <p>The impediments I logged moved from supplier delays and time pressure to "None" by 22 April, so writing them down daily helped us deal with them early. The retrospective gave us two clear actions: start supplier outreach earlier, and add a recurring 15-minute morning sync on MS Teams. The main lesson for me is that a Scrum Master's job is mostly to remove blockers, and a daily log makes that visible.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
+  <footer><span>&copy; 2026 Mogamad Jawaad Allie</span><span>CPUT ICT Application Development &middot; PRP370S / PRP371S / PRP372S</span><a href="mailto:jawaadallie@gmail.com">jawaadallie@gmail.com</a></footer>
+</main>
 
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-container">
-            <p>&copy; 2026 Mogamad Jawaad Allie. All rights reserved.</p>
-            <p class="footer-academic">CPUT ICT Application Development | PRP370S / PRP371S / PRP372S Portfolio Assessment</p>
-            <div class="footer-links">
-                <a href="mailto:jawaadallie@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-                <a href="./assets/documents/CV.md" target="_blank"><i class="fa-brands fa-markdown"></i> CV.md</a>
-            </div>
-        </div>
-    </footer>
-
-    <button id="scroll-top-btn" aria-label="Back to top" title="Back to top">
-        <svg class="scroll-ring" viewBox="0 0 36 36">
-            <circle class="ring-bg" cx="18" cy="18" r="15.9155"/>
-            <circle class="ring-fill" id="ring-fill" cx="18" cy="18" r="15.9155"
-                stroke-dasharray="0 100" stroke-dashoffset="25"/>
-        </svg>
-        <i class="fa-solid fa-arrow-up"></i>
-    </button>
-
-    <script src="script.js"></script>
+<button class="up" id="up" type="button" aria-label="Back to top">&uarr;</button>
+<dialog id="viewer"><button id="viewer-close" type="button">Close &times;</button><img id="viewer-img" alt=""><p id="viewer-cap"></p></dialog>
+<script src="script.js"></script>
 </body>
 </html>
